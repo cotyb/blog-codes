@@ -75,7 +75,7 @@ if __name__ == "__main__":
     money = sys.argv[3]
 
     conn = MySQLdb.connect(
-        host = "127.0.0.1", user = 'root', passwd = '111111', port = 3306, db = 'cotyb'
+        host = "127.0.0.1", user = '******', passwd = '******', port = 3306, db = '******'
     )
     tr_money = TransferMoney(conn)
 
